@@ -1,0 +1,10 @@
+.prop-details {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.language {
+    display: flex;
+    gap: 12px;
+}

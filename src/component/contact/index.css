@@ -1,0 +1,40 @@
+.contact__main {
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
+}
+
+.contact__block {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.contact__story {
+    display: flex;
+    gap: 16px;
+}
+
+.contact__story--value {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.contact__info--value:not(:last-child)::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 4px;
+    border-radius: 4px;
+    background-color: #000;
+}
+
+.contact__info {
+    font-size: 16px;
+}
